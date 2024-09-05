@@ -1,16 +1,16 @@
 <template>
   <div class="home">
-    <HelloWorld/>
+    <TodoList/>
   </div>
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
+import TodoList from '@/components/TodoList.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    TodoList
   }
 }
 </script>
